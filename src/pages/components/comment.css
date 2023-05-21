@@ -27,10 +27,12 @@
   margin-right: 15px;
 }
 .post .post-heading .meta .title {
-  margin-bottom: 0;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 .post .post-heading .meta .title a {
   color: black;
+  font-weight: bold;
 }
 .post .post-heading .meta .title a:hover {
   color: #aaaaaa;
@@ -102,4 +104,13 @@
 }
 .post .post-footer .comments-list .comment > .comments-list {
   margin-left: 50px;
+}
+
+.float-left {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  justify-content: space-between;
+  align-content: center;
 }

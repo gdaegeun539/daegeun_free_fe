@@ -10,10 +10,13 @@ const Comment = (props) => {
       <Card className="card card-white post">
         <div className="post-heading">
           <div className="float-left meta">
-            <div className="title h5">{review.uname}</div>
-            <h6 className="text-muted time">
-              {combineRegDate(review.reg_date)}
-            </h6>
+            <div className="title">{review.uname}</div>
+            <div>
+              <h6 className="text-muted time">
+                {combineRegDate(review.reg_date)}
+              </h6>
+              <p>{`${review.rating}점`}</p>
+            </div>
           </div>
         </div>
         <div className="post-description">

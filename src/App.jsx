@@ -6,6 +6,7 @@ import "./App.css";
 import ListPage from "./pages/ListPage";
 import DetailPage from "./pages/DetaliPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import DeviceAddPage from "./pages/DeviceAddPage";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Route path="/" element={<ListPage />} />
       <Route path="/category/:category" element={<ListPage />} />
       <Route path="/device/:device_id" element={<DetailPage />} />
-      <Route path="/device/add" element={<NotFoundPage />} />
+      <Route path="/device/add" element={<DeviceAddPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
