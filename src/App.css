@@ -1,6 +1,41 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.list-main {
+  padding: 4vw 4vh 4vw 4vh;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.clickable-elem {
+  cursor: pointer;
+}
+
+.button-palette-custom {
+  background-color: #ffdddd;
+  color: #222222;
+  border: none;
+}
+
+.button-palette-custom:hover {
+  background-color: #ffbdbd;
+  color: #222222;
+}
+
+.detail-main {
+  padding: 8vw 8vh 8vw 8vh;
+}
+
+.margin-bottom-vh {
+  margin-bottom: 16vh;
+}
+
+.img-layout {
+  width: 16vw;
+  height: 16vw;
 }
