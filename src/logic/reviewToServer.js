@@ -11,7 +11,7 @@ const reviewToServer = async (uname, score, content, dev_id) => {
       dev_id: dev_id,
     };
     let resp = await axios.post(LOCALHOST_SERVER + REVIEW_API + "/", body_data);
-    if (resp.status === 200) {
+    if (resp.status === 201) {
       return true;
     } else {
       return false;
