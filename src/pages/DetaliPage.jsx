@@ -10,6 +10,7 @@ import {
   Form,
   Button,
   Table,
+  Image,
 } from "react-bootstrap";
 import MyNavBar from "./components/MyNavbar";
 import Comment from "./components/Comment";
@@ -97,10 +98,11 @@ const DetailPage = () => {
         <Container className="margin-bottom-vh">
           <Row>
             <Col sm={4}>
-              <img
+              <Image
                 src={device.photo_path}
                 alt={`${device.name} photo`}
                 className="border border-2 rounded border-info img-layout"
+                rounded
               />
             </Col>
             <Col sm={8}>
