@@ -24,7 +24,7 @@
 
 | JavaScript |  React   | Node.js |  Bootstrap   | Visual Studio Code |
 | :--------: | :------: | :-----: | :----------: | :----------------: |
-|   ![js]    | ![react] | ![node] | ![bootstrap] |     ![vscode]      |
+|   ![js]    | ![react] | ![node] | <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="bootstrap logo" width=100/> |     ![vscode]      |
 
 <br/>
 
@@ -90,5 +90,4 @@ MIT &copy; [gdaegeun539](mailto:gdaegeun539@gmail.com)
 [js]: /readme_assets/javascript.svg
 [react]: /readme_assets/react.svg
 [node]: /readme_assets/node.svg
-[bootstrap]: https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg
 [vscode]: /readme_assets/vscode.svg
